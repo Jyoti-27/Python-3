@@ -1,0 +1,231 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[13]:
+
+
+a = 2
+b = 3
+c = a ** b
+print(a,b,c)
+type(c)
+
+
+# In[14]:
+
+
+a = 4
+b = 5
+a < b
+c = a < b
+print(c)
+type(c)
+
+
+# In[7]:
+
+
+a = 5
+b = 6
+print("a < b =",a < b)
+print("a > b =",a > b)
+print("a == b =",a == b)
+print("a != b =",a != b)
+
+
+# In[9]:
+
+
+a = True
+b = False
+type(a)
+
+
+# In[11]:
+
+
+a = 12
+b = 13
+print(a == b,a != b,a < b,a > b )
+
+
+# In[17]:
+
+
+z = 3 + 4j
+print(z)
+type(z)
+
+
+# In[19]:
+
+
+z = 3 + 4j
+z
+type(z)
+
+
+# In[23]:
+
+
+z.conjugate() # Here conjugate is a funcion that is appicable on theobject 'z'
+
+
+# In[24]:
+
+
+z.imag #Here img is a property
+
+
+# In[25]:
+
+
+z.real #Here real is a property of the imaginary numbers
+
+
+# In[26]:
+
+
+abs(z)
+
+
+# In[27]:
+
+
+a.conjugate()
+
+
+# In[29]:
+
+
+name = "Jyoti"
+print(name)
+type(name)
+
+
+# In[36]:
+
+
+Firstname = "Jyoti"
+Lastname = "Sabarad"
+Firstname +" "+ Lastname
+
+
+# In[34]:
+
+
+Firstname.upper()
+
+
+# In[35]:
+
+
+len(Firstname)
+
+
+# In[38]:
+
+
+Firstname = "Jyoti"
+Lastname = "Sabarad"
+
+len(Firstname+" "+Lastname)
+
+
+# In[39]:
+
+
+Firstname[2]  #Indexing
+
+
+# In[42]:
+
+
+Firstname[3:4] #Slicing that is First part is included and last part is excluded
+
+
+# In[45]:
+
+
+a =12345
+a[1] #Indexing isnot possible on the numbers
+
+
+# In[47]:
+
+
+Firstname
+
+
+# In[50]:
+
+
+Firstname[3] = "r"
+
+
+# - In Python, we can not modify the strings that are created once.That's why string data types comes under immutable data types.
+
+# In[53]:
+
+
+players = ("Rahul","Vyankaresh","Anil","Shreenath","Gautam")
+print(players)
+type(players)
+
+
+# In[54]:
+
+
+len(players)
+
+
+# In[55]:
+
+
+players[2]
+
+
+# In[56]:
+
+
+players[2] = "Jyoti"
+
+
+# In[58]:
+
+
+players1 = "Rahul","Vyankaresh","Anil","Shreenath","Gautam"
+players1
+type(players1)
+
+
+# In[60]:
+
+
+players2 = tuple("Rahul","Vyankaresh","Anil","Shreenath","Gautam")
+
+
+# In[62]:
+
+
+actors_list = ["Akshay","Prabhas","Aamir","Shahrukh","Salman"]
+type(actors_list)
+
+
+# In[63]:
+
+
+actors_list[2] = "Ram"
+
+
+# In[64]:
+
+
+actors_list
+
+
+# In[ ]:
+
+
+
+
